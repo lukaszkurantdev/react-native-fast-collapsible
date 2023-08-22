@@ -1,6 +1,6 @@
 {
   "name": "react-native-fast-collapsible",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Pure Javascript library for React Native with super-fast collapsible component using Reanimated v3 API.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -40,13 +40,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/lukaszkurantdev/hereisrepotodo",
+  "repository": "https://github.com/lukaszkurantdev/react-native-fast-collapsible",
   "author": "Lukasz Kurant <contact@lukaszkurant.com> (https://lukaszkurant.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lukaszkurantdev/hereisrepotodo/issues"
+    "url": "https://github.com/lukaszkurantdev/react-native-fast-collapsible/issues"
   },
-  "homepage": "https://github.com/lukaszkurantdev/hereisrepotodo#readme",
+  "homepage": "https://github.com/lukaszkurantdev/react-native-fast-collapsible#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
