@@ -1,6 +1,6 @@
 {
   "name": "react-native-fast-collapsible",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Pure Javascript library for React Native with super-fast collapsible component using Reanimated v3 API.",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
