@@ -3,7 +3,7 @@ import { useCollapsible } from '../useCollapsible';
 import Animated from 'react-native-reanimated';
 
 import { collapsibleStyles } from './Collapsible.styles';
-import type { CollapsibleConfig } from 'src/types';
+import type { CollapsibleConfig } from '../types';
 
 export type CollapsibleProps = CollapsibleConfig & {
   children?: ReactNode;
