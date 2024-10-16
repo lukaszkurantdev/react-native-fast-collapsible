@@ -32,16 +32,14 @@ export function useCollapsible({
     (event: LayoutChangeEvent) => {
       const measuredHeight = event.nativeEvent.layout.height;
 
-      if (componentHeight !== measuredHeight) {
+      if (Math.round(componentHeight) !== Math.round(measuredHeight)) {
         setComponentHeight(measuredHeight);
       }
     },
     [componentHeight]
   );
 
-  const animatedStyles = useAnimatedStyle(() => ({
-    height: height.value,
-  }));
+  const animatedStyles = useAnimatedStyle(() => ({ height: height.value }));
 
   return {
     onLayout,

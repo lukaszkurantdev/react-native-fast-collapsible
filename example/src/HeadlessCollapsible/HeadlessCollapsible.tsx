@@ -43,6 +43,7 @@ export default function HeadlessCollapsible() {
         style={[animatedStyles, styles.overflowHidden]}
         pointerEvents={isVisible ? 'auto' : 'none'}
       >
+        {/* @ts-ignore */}
         <View onLayout={onLayout} style={styles.collapsibleContainer}>
           <Text>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
