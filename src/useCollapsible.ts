@@ -39,9 +39,7 @@ export function useCollapsible({
     [componentHeight]
   );
 
-  const animatedStyles = useAnimatedStyle(() => ({
-    height: height.value,
-  }));
+  const animatedStyles = useAnimatedStyle(() => ({ height: height.value }));
 
   return {
     onLayout,
