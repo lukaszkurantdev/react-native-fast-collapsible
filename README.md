@@ -13,7 +13,7 @@ There are currently many libraries available for Collapsible components, but the
 ### Installation
 
 ```sh
-yarn install react-native-fast-collapsible
+yarn add react-native-fast-collapsible
 ```
 
 This library has a peer dependency on react-native-reanimated has to be installed, linked and configured into your project. Follow [react-native-reanimated](https://docs.swmansion.com/react-native-reanimated/docs/fundamentals/getting-started) to install the dependency.
